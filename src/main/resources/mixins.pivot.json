@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.7.7",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "package": "committee.nova.pivot.mixin",
+  "refmap": "mixins.pivot.refmap.json",
+  "mixins": [
+    "MixinEntityPlayer",
+    "MixinPlayerList"
+  ],
+  "client": [
+    "MixinGuiScreen"
+  ],
+  "server": [],
+  "verbose": true
+}

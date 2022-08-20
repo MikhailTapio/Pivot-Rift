@@ -1,0 +1,10 @@
+{
+  "id": "nextspring",
+  "name": "NextSpring",
+  "authors": [
+    "Tapio"
+  ],
+  "listeners": [
+    "committee.nova.pivot.Pivot"
+  ]
+}
